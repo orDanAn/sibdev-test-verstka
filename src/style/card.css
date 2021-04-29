@@ -1,0 +1,117 @@
+.container-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FAFAFA;
+  padding-left: 300px;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  width: 347px;
+  height: 161px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+}
+
+.card__triangl {
+  border: 8px solid transparent;
+  content: '';
+  position: absolute;
+  z-index: 2;
+}
+
+.card__triangl_left {
+  border-left: 10px solid #e7e7e7;
+  left: -2px;
+}
+
+.card__triangl_right {
+  border-right: 10px solid #e7e7e7;
+  right: -2px;
+}
+
+.card:hover {
+  border: 2px solid red;
+}
+
+.card:hover::after {
+  border: 8px solid transparent;
+  border-right: 10px solid red;
+  content: '';
+  position: absolute;
+  right: 0;
+}
+
+.card:hover::before {
+  border: 8px solid transparent;
+  border-left: 10px solid red;
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.card__left-half {
+  margin: 0 0 0 20px;
+}
+
+.card__title {
+  margin: 16px 0 0 0;
+  font-family: Roboto "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card__sub-title {
+  margin: 4px 0 0 0;
+  font-family: Roboto "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.card__text {
+  margin: 6px 0 0 0;
+  font-family: Roboto "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.card__text_red {
+  margin: 43px 0 0 0;
+  font-family: Roboto "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #DF212D;
+}
+
+.card__img {
+  border-radius: 0 10px 10px 0;
+  max-height: 158px;
+}

@@ -1,0 +1,42 @@
+.side-menu {
+  width: 240px;
+  background: #F3F4F9;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.logo-img {
+  margin: 41px 0 20px 41px;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__item:hover, .item-menu__img {
+  opacity: 0.5;
+  color: #34ABE0;
+  fill: #34ABE0;
+}
+
+.item-menu__img {
+  
+}
+
+.item-menu__container {
+  display: flex;
+  align-items: center;
+}
+
+.item-menu__link {
+  text-decoration: none;
+  color: #333333;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 0 15px;
+}
