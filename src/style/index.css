@@ -1,5 +1,6 @@
 @import './card.css';
 @import './sideBarMenu.css';
+@import './search.css';
 
 body {
   margin: 0;
