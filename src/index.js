@@ -16,5 +16,11 @@ btnCloseMenu.addEventListener('click', () => {
     sideMenuMobile.style = 'display: block';
 })
 
+window.addEventListener("scroll", () =>{
+// в зависимости от pageYOffset присваеваем клас для инпута
+    console.log(pageYOffset + 'px')
+
+    });
+
 
 console.log('Ghbdtm!!!')

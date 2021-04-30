@@ -127,6 +127,7 @@
   .container-card {
     padding-left: 104px;
     padding-top: 27px;
+    justify-content: center;
   }
   .card {
     width: 296px;
@@ -163,7 +164,7 @@
 
 @media screen and (max-width: 320px) {
   .container-card {
-    padding-left: 32px;
+    padding-left: 12px;
     padding-top: 27px;
     flex-direction: column;
     align-items: center;

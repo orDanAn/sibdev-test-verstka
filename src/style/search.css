@@ -51,7 +51,7 @@
     padding: 0 0 0 104px;
     /* position: absolute; */
     position: sticky;
-    top: -80px;
+    top: -73px;
     left: 0;
     right: 0;
     background: #fff;
@@ -60,14 +60,34 @@
   }
   .search__title {
     text-align: right;
+    margin: 31px 27px 0 0;
   }
 
-  .search__input {
-    width: 612px;
-    
+  .search__container-input {
+    margin: 33px 27px 27px;
   }
+
 }
 
 @media screen and (max-width: 320px) {
+  .search {
+    padding: 0 0 0 12px;
+    position: sticky;
+    top: -61px;
+  }
 
+  .search__title {
+    text-align: right;
+    margin: 37px 20px 0 0;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .search__container-input {
+    margin: 21px 21px 27px;
+  }
+
+  .search__input {
+    font-size: 14px;
+  }
 }
