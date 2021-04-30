@@ -46,11 +46,28 @@
 }
 
 @media screen and (max-width: 768px) {
+  
+  .search {
+    padding: 0 0 0 104px;
+    /* position: absolute; */
+    position: sticky;
+    top: -80px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 20;
+    height: 200px;
+  }
   .search__title {
     text-align: right;
   }
 
   .search__input {
     width: 612px;
+    
   }
+}
+
+@media screen and (max-width: 320px) {
+
 }
