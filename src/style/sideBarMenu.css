@@ -112,7 +112,7 @@
 .item-menu__link {
   text-decoration: none;
   color: #333333;
-  font-family: 'Open Sans;' "Arial", sans-serif;
+  font-family: 'Open Sans', "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -129,11 +129,7 @@
   stroke: #34ABE0;
 }
 
-._hidden {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1035px) {
 
   .side-menu {
     display: none;
@@ -152,7 +148,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .side-menu {
     width: 192px;
   }

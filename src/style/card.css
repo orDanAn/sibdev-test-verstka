@@ -68,7 +68,7 @@
 
 .card__title {
   margin: 16px 0 0 0;
-  font-family: Roboto "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -80,7 +80,7 @@
 
 .card__sub-title {
   margin: 4px 0 0 0;
-  font-family: Roboto "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -91,7 +91,7 @@
 
 .card__text {
   margin: 6px 0 0 0;
-  font-family: Roboto "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -104,16 +104,16 @@
   opacity: 0.5;
 }
 
-.card__text_red {
+.card__main-text {
   margin: 43px 0 0 0;
-  font-family: Roboto "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 28px;
   display: flex;
   align-items: center;
-  color: #DF212D;
+  
 }
 
 .card__img {
@@ -122,7 +122,13 @@
   max-width: 130px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1410px) {
+  .container-card {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1035px) {
   
   .container-card {
     padding-left: 104px;
@@ -151,7 +157,7 @@
     
   }
   
-  .card__text_red {
+  .card__main-text {
     margin: 31px 0 0 0;
   
   }
@@ -162,7 +168,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .container-card {
     padding-left: 12px;
     padding-top: 27px;
@@ -195,7 +201,7 @@
     font-size: 12px;
   }
   
-  .card__text_red {
+  .card__main-text {
     margin: 22px 0 0 0;
     font-size: 28px;    
   }

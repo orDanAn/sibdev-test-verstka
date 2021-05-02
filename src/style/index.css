@@ -5,3 +5,11 @@
 body {
   margin: 0;
 }
+
+._hidden {
+  display: none;
+}
+
+._red {
+  color: #DF212D;
+}
